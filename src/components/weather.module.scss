@@ -1,0 +1,98 @@
+
+.main {
+display: flex;
+flex-direction: column;
+align-items: center;
+    .defaultWeather {
+    background-color: rgb(193, 204, 202);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2vw;
+    padding: 15px;
+        h1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        }
+}}
+
+.hotWeather {
+    background-color: rgb(224, 155, 64);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    padding: 20px;
+    font-size: 20px;
+        h1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        border: solid 1px black;
+        width: 100%;
+        margin-top: 0px;
+        height: 50px;
+        align-items: center;
+        background-color: lightsalmon;
+        border-radius: 2vw;
+        }
+}
+
+.coldWeather {
+    background-color: rgb(109, 223, 213);
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2vw;
+    padding: 20px;
+    font-size: 20px;
+    h1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        border: solid 1px black;
+        width: 100%;
+        margin-top: 0px;
+        height: 50px;
+        align-items: center;
+        background-color: lightblue;
+        border-radius: 2vw;
+        }
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    height: 50px;
+    width: 1500px;
+    margin-bottom: 95px;
+    button {
+        background-color:rgb(149, 192, 76);
+        color:black;
+        border-radius: 2vw;
+        display: flex;
+        justify-content: center;
+        width: 120px;
+        height: 75px;
+        font-size: 18px;
+        font-weight: bold;
+        border: solid 1px black;
+        &:hover {
+            opacity: 0.5;
+            cursor: pointer;
+        }
+    }
+}
